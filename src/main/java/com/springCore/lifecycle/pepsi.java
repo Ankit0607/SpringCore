@@ -3,7 +3,7 @@ package com.springCore.lifecycle;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-// implementing interface for init and destroy by interface
+// implementing interface for init and destroy by interface them no need to add intit method in the config file
 public class pepsi implements InitializingBean, DisposableBean {
 	private double price;
 
