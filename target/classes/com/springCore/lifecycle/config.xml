@@ -7,6 +7,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
 						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+<!-- for enabling all the anotaion in the code -->
 	<context:annotation-config />
 	<!-- init method and destroy method example this method will be same as in
 	the class file -->
