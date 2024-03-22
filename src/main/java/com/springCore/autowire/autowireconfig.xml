@@ -15,4 +15,7 @@
 	<!-- Autowire in the bean byName-->
 	<bean class = "com.springCore.autowire.emp" name = "emp1" autowire="byName"/>
 	
+	<!-- Autowire in the bean byType-->
+	<!-- <bean class = "com.springCore.autowire.emp" name = "emp1" autowire="byType"/> -->
+	
 </beans>
