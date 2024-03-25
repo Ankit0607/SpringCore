@@ -14,11 +14,14 @@
 		<property name="city" value="Barsana" />
 		<property name="Country" value="Bharat" />
 	</bean>
-	<!-- Autowire in the bean byName-->
+	
+		<bean class="com.springCore.autowire.annotation.address" name="address1">
+		<property name="city" value="Gokul" />
+		<property name="Country" value="Hindustan" />
+	</bean>
+	
 	<bean class="com.springCore.autowire.annotation.emp" name="emp1" />
 
-	<!-- Autowire in the bean byType-->
-	<!-- <bean class = "com.springCore.autowire.emp" name = "emp1"
-	autowire="byType"/> -->
+
 
 </beans>
