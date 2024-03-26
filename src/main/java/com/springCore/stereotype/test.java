@@ -11,7 +11,8 @@ public class test {
 
 		student stu = (student) context.getBean("student", student.class);
 		System.out.println(stu);
-
+		System.out.println(stu.getAddress());
+		System.out.println(stu.getAddress().getClass().getName());
 	}
 
 }
