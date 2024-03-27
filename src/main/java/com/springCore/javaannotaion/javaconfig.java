@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class javaconfig {
 
-	@Bean
+	@Bean(name = "temp") // we can provide more than one name - @Bean(name = {"temp", "stu"})
 	public samosa getSamosa() {
 		return new samosa();
 	}
